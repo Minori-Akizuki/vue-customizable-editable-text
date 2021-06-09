@@ -1,0 +1,58 @@
+{
+  "name": "vue-customizable-editable-text",
+  "version": "0.1.0",
+  "private": false,
+  "main": "./dist/vue-customizable-editable-text.umd.js",
+  "module": "./dist/vue-customizable-editable-text.esm.js",
+  "unpkg": "./dist/vue-customizable-editable-text.min.js",
+  "jsdelivr": "./dist/vue-customizable-editable-text.umd.min.js",
+  "license": "MIT",
+  "author": {
+    "name": "Minori Akizuki",
+    "email": "dreamnstd@gmail.com",
+    "url": "https://github.com/Minori-Akizuki"
+  },
+  "files": ["dist"],
+  "keywords": ["Vue", "Vue.js", "editable", "component", "input", "textbox"],
+  "browser": {
+    "./sfc": "src/components/vue-customizable-editable-text.vue"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name my-component ./src/library-main.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
