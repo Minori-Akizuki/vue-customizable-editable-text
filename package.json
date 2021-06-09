@@ -17,6 +17,16 @@
   "browser": {
     "./sfc": "src/components/vue-customizable-editable-text.vue"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minori-Akizuki/vue-customizable-editable-text"
+  },
+  "bugs": {
+    "url": "https://github.com/Minori-Akizuki/vue-customizable-editable-text/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

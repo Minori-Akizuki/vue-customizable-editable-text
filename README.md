@@ -56,7 +56,7 @@ npm install vue-customizable-editable-text
 </template>
 
 <script>
-import VueCustomizableEditableText from './components/VueCustomizableEditableText.vue'
+import VueCustomizableEditableText from 'vue-customizable-editable-text'
 
 export default {
   name: 'App',
