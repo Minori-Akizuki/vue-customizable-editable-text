@@ -1,6 +1,6 @@
 {
   "name": "vue-customizable-editable-text",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "./dist/vue-customizable-editable-text.umd.js",
   "module": "./dist/vue-customizable-editable-text.esm.js",
